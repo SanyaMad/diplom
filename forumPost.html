@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" defer></script>
+    <title>AvtoCity</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__block container">
+            <a href="index.html" class="home__link"><img src="img/logo.svg" alt="logo" class="header__logo"></a>
+            <nav class="header__nav">
+                <a href="forum.html" class="header__nav--link">форум</a>
+                <a href="gallery.html" class="header__nav--link">галерея</a>
+                <a href="article.html" class="header__nav--link">статьи</a>
+            </nav>
+            <div class="header__autorisation">
+                <a href="login.html" class="header__login">войти</a>
+                <span style="color:#FFF">/</span>
+                <a href="registration.html" class="header__login">зарегистрироваться</a>
+            </div>
+            <div style="display: none" class="header__profile">
+                <span class="headerLogin"></span>
+                <a href="index.html" class="exit">выйти</a>
+            </div>
+        </div>
+    </header>
+    
+
+    <section class="forum">
+        <div class="forum__block container">
+            <h2 class="sectionTitle">Форум</h2>
+            <div class="forum__posts">
+                <div class="forum__post">
+                    <div class="forumUser">
+                        <img src="img/user.png" alt="img" class="forumUser__img">
+                        <p class="forumUser__text">Пользователь:</p>
+                        <p class="forumUser__name">ABOBA777</p>
+                    </div>
+                    <div class="forum__postContent">
+                        <h3 class="forum__postTitle">Тема: Тонировка фар</h3>
+                        <p class="forum__postText">Посоветуйте, где можно сделать тонировку оптики в Москве? Хочу услышать отзывы уже от тех, кто делал.</p>
+                    </div>
+                </div>
+
+                <div class="forum__post forum__answer">
+                    <div class="forumUser">
+                        <img src="img/user.png" alt="img" class="forumUser__img">
+                        <p class="forumUser__text">Пользователь:</p>
+                        <p class="forumUser__name">ABOBA777</p>
+                    </div>
+                    <div class="forum__postContent">
+                        <p class="forum__postText forum__postAnswer">Слушайте, я недавно делала у Байкал . Решил затонировать фары для их сохранности, да и просто для улучшение внешнего вида)) Ребята классные проконсультировали меня во всем и сделали работу быстро. Никаких царапин или пузырей не было и светопропускаемость не изменилась. Сервисом остался доволен, так что могу советовать)</p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="forumSubtitle">Написать ответ:</p>
+            <form action="#" class="forumForm">
+                <div class="forumForm__block">
+                    <label for="Text" class="forumLabel">Текст</label>
+                    <textarea type="text" id="Text" class="forumInput forumInputText" placeholder="Введите текст"></textarea>  
+                </div>
+                <div class="forumForm__block2">
+                    <div class="forumForm__file">
+                        <label for="Btn" class="forumLabel">Прикрепить файл</label>
+                        <input type="file" class="forumBtn" placeholder="Выбрать файл">
+                    </div>
+                    <input type="submit" class="forumSubmit">
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__block container">
+            <div class="contacts">
+                <p class="footer__number">Тех. поддержка  <span style="color:white">8-999-999-99-99</span></p>
+                <p class="footer__number">Сотрудничество <span style="color:white">8-888-888-88-88</span></p>
+            </div>
+            <div class="socials">
+                <div class="social__icons">
+                    <a href="#" class="social__link"><img src="img/vk.png" alt="img" class="social__icons--img"></a>
+                    <a href="#" class="social__link"><img src="img/youtube.png" alt="img" class="social__icons--img"></a>
+                    <a href="#" class="social__link"><img src="img/instagram.png" alt="img" class="social__icons--img"></a>
+                </div>
+                <span class="footer__email">avtocity@gmail.com</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+

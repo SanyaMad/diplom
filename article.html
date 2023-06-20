@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" defer></script>
+    <script src="js/article.js" defer></script>
+    <script src="js/adminka.js" defer></script>
+    <title>AvtoCity</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__block container">
+            <a href="index.html" class="home__link"><img src="img/logo.svg" alt="logo" class="header__logo"></a>
+            <nav class="header__nav">
+                <a href="forum.html" class="header__nav--link">форум</a>
+                <a href="gallery.html" class="header__nav--link">галерея</a>
+                <a href="article.html" class="header__nav--link">статьи</a>
+            </nav>
+            <div class="header__autorisation">
+                <a href="login.html" class="header__login">войти</a>
+                <span style="color:#FFF">/</span>
+                <a href="registration.html" class="header__login">зарегистрироваться</a>
+            </div>
+            <div style="display: none" class="header__profile">
+                <span class="headerLogin"></span>
+                <a href="index.html" class="exit">выйти</a>
+            </div>
+        </div>
+    </header>
+    <section class="article">
+        <div class="container article__block">
+            <h2 class="sectionTitle">Полезные статьи</h2>
+            <div class="adminka">
+            <!-- <form>
+                <input type="text" id="article-title" placeholder="Введите заголовок статьи">
+                <textarea id="article-text" placeholder="Введите текст статьи"></textarea>
+                <input type="file" id="article-photo">
+                <button type="button" onclick="addArticle()">Добавить статью</button>
+              </form> -->
+            </div>
+              <ul id="articles-list">
+                <!-- здесь будут отображаться добавленные статьи -->
+              </ul>
+            <!-- <div class="article__card">
+                <h3 class="article__cardTitle">Всё, что вам нужно знать о шиномонтаже</h3>
+                <img src="img/articleIMG.png" alt="img" class="article__cardIMG">
+                <p class="article__cardText">Безопасность на дороге — не ещё одно абстрактное понятие. Это ваша внимательность, техническая исправность автомобиля, шины по сезону. По данным ГИБДД за 8 месяцев 2020 года среди технических</p>
+                <a href="#" class="article__cardLink">Читать полностью</a>
+            </div>
+            <div class="article__card">
+                <h3 class="article__cardTitle">Всё, что вам нужно знать о шиномонтаже</h3>
+                <img src="img/articleIMG.png" alt="img" class="article__cardIMG">
+                <p class="article__cardText">Безопасность на дороге — не ещё одно абстрактное понятие. Это ваша внимательность, техническая исправность автомобиля, шины по сезону. По данным ГИБДД за 8 месяцев 2020 года среди технических</p>
+                <a href="#" class="article__cardLink">Читать полностью</a>
+            </div>
+            <div class="article__card">
+                <h3 class="article__cardTitle">Всё, что вам нужно знать о шиномонтаже</h3>
+                <img src="img/articleIMG.png" alt="img" class="article__cardIMG">
+                <p class="article__cardText">Безопасность на дороге — не ещё одно абстрактное понятие. Это ваша внимательность, техническая исправность автомобиля, шины по сезону. По данным ГИБДД за 8 месяцев 2020 года среди технических</p>
+                <a href="#" class="article__cardLink">Читать полностью</a>
+            </div> -->
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__block container">
+            <div class="contacts">
+                <p class="footer__number">Тех. поддержка  <span style="color:white">8-999-999-99-99</span></p>
+                <p class="footer__number">Сотрудничество <span style="color:white">8-888-888-88-88</span></p>
+            </div>
+            <div class="socials">
+                <div class="social__icons">
+                    <a href="#" class="social__link"><img src="img/vk.png" alt="img" class="social__icons--img"></a>
+                    <a href="#" class="social__link"><img src="img/youtube.png" alt="img" class="social__icons--img"></a>
+                    <a href="#" class="social__link"><img src="img/instagram.png" alt="img" class="social__icons--img"></a>
+                </div>
+                <span class="footer__email">avtocity@gmail.com</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+

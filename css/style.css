@@ -1,0 +1,567 @@
+/* settings */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif; */
+
+/* section header */
+.header{
+    background: #000;
+    padding-bottom: 15px;
+}
+.header__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__nav{
+    display: flex;
+}
+.header__nav--link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-decoration: none;
+    margin-right: 40px;
+    transition: 0.2s;
+}
+.header__nav--link:hover{
+    transform: scale(1.1);
+    color: #FFA900;
+}
+.header__nav--link:last-child{
+    margin-right: 0;
+}
+.header__autorisation{
+    display: flex;
+}
+.header__login{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.header__login:hover{
+    transform: scale(1.05);
+}
+.header__login:first-child{
+    margin-right: 5px;
+}
+.header__login:last-child{
+    margin-left: 5px;
+}
+.header__profile{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.headerLogin{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #FFA900;
+    margin-right: 15px;
+}
+.exit{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #FFF;
+    margin-right: 15px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.exit:hover{
+    transform: scale(1.1);
+}
+
+
+/* section main */
+.main{
+    background: url('../img/mainBG.png') no-repeat center / cover;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.main__title{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+.main__subtitle{
+    margin-bottom: 470px;
+}
+.main__text{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF;
+    max-width: 700px;
+    width: 100%;
+}
+
+
+/* section news */
+.news{
+    background:#0A0A0A;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.news__block{
+    z-index: 999;
+}
+.sectionTitle{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.newsCard{
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 45px;
+    padding: 30px 70px 30px 70px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.newsCard:last-child{
+    margin-bottom: 0;
+}
+.newsCard__content{
+    margin-left: 100px;
+}
+.newsCard__title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 42px;
+    color: #FFF;
+    margin-bottom: 15px;
+}
+.newsCard__text{
+    color: #A8A8A8;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+.news__link{
+    color: #FFA900;
+    text-decoration: none;
+}
+
+
+
+/* section sponsor */
+.sponsor{
+    background: #FFA900;
+}
+.sponsor__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* section team */
+.team{
+    background: #0A0A0A;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.team__content{
+    display: flex;
+    justify-content: space-between;
+}
+.team__cardTitle{
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-style: bold;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 15px;
+}
+.team__cardText{
+    color: #FFA900;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* section footer */
+.footer{
+    background: #FFA900;
+}
+.footer__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer__number{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 42px;
+    color: #000;
+    margin-bottom: 5px;
+}
+.footer__number:last-child{
+    margin-bottom: 0;
+}
+.socials{
+    text-align: center;
+}
+.social__icons{
+    margin-bottom: 5px;
+}
+.social__icons--img{
+    max-width: 55px;
+    width: 100%;
+    margin-right: 15px;
+}
+.social__icons--img:last-child{
+    margin-right: 0;
+}
+.footer__email{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 42px;
+    color: #000;
+}
+
+/* section gallery */
+.gallery{
+    background: #0A0A0A;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.gallery__block{
+    display: flex;
+    justify-content: center;
+}
+.galIMG{
+    height: 700px;
+}
+.galIMG:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.galIMG1{
+    margin-left: -160px;
+}
+.galIMG1:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+/* section forum */
+.forum{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: #0A0A0A;
+    color: #FFF;
+}
+.forumForm{
+    align-items: center;
+    text-align: center;
+}
+.forumSubtitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.forumLabel{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    margin-right: 15px;
+}
+.forumInput{
+    background: #FFF;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 30px;
+    max-width: 1000px;
+    width: 100%;
+    height: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+.forumInputText{
+    height: 100px;
+    resize: none;
+    padding: 10px 15px;
+}
+.forumForm__block{
+    margin-bottom: 35px;
+}
+.forumForm__block2{
+    display: flex;
+    justify-content: center;
+}
+.forumForm__file{
+    margin-right: 530px;
+}
+.forumBtn{
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    color: #FFF;
+}
+.forumSubmit{
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #000;
+    background: #FFA900;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+.forum__posts{
+    margin-top: 75px;
+}
+.forum__post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    width: 100%;
+    padding: 30px 50px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+.forumUser{
+    text-align: center;
+    align-items: center;
+    margin-right: 35px;
+}
+.forumUser__text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+}
+.forumUser__name{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: #FFA900;
+}
+.forum__postTitle{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFF;
+    margin-bottom: 25px;
+}
+.forum__postText{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: #FFF;
+    width: 1000px;
+    word-wrap: break-word;
+}
+.forum__postContent{
+    text-align: left;
+}
+.forum__answer{
+    background: rgba(255, 255, 255, 0.4);
+}
+.forum__postAnswer{
+    max-width: 940px;
+}
+
+/* section article */
+.article{
+    background: #0A0A0A;
+}
+.article__block{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+.article__card{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.article__cardTitle{
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    color: #FFF;
+    text-shadow: #FFA900 1px 0 5px;
+    margin-bottom: 15px;
+}
+.article__cardIMG{
+    max-width: 650px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.article__cardText{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    margin-bottom: 5px;
+}
+.article__cardLink{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: #FFA900;
+}
+.articleBtn{
+    max-width: 85px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #FFA900;
+    background: transparent;
+    color: #FFF;
+    cursor: pointer;
+    display: flex;
+    transition: 0.2s;
+    align-items: center;
+    justify-content: center;
+}
+.articleBtn:hover{
+    transform: scale(1.1);
+}
+
+/* section login */
+.login{
+    background: url('../img/regBG.jpg') no-repeat center / cover;
+    padding-top: 150px;
+    padding-bottom: 350px;
+    color: #FFF;
+}
+.loginForm{
+    max-width: 450px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.loginForm__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.loginForm__block:last-child{
+    margin-bottom: 0;
+}
+.loginImput{
+    max-width: 350px;
+    width: 100%;
+}
+.loginBtn{
+    padding: 10px 25px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    background: #FFA900;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+/* section registration */
+.registration{
+    background: url('../img/regBG.jpg') no-repeat center / cover;
+    color: #FFF;
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+.registrationForm{
+    max-width: 550px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.registrationForm__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* section galleryPosts */
+.galleryPosts{
+    background: #0A0A0A;
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.imageContainer {
+  position: relative;
+}
+.galleryImg {
+  width: 450px;
+  height: 20  0px;
+  margin: 10px;
+  object-fit: cover;
+}
+.deleteBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+}
+.imageContainer{
+  transition: 0.3s;
+}
+.imageContainer:hover{
+  transform: scale(1.05);
+}
+.galleryModal{
+  position: fixed;
+  background-color: rgba(0,0,0,0.9); 
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.galleryPosts{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
